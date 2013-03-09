@@ -1,0 +1,19 @@
+<div class="row">
+	<div class="span6 offset3">
+		<div class="well">
+			<p>
+  		<b>Description:</b>
+  		<%= @lyk.description %>
+  		</p>
+  		<p>
+  		<%= @lyk.user.name %>
+  		</p>
+      <% if current_user == @lyk.user %>
+      <%= link_to 'Edit', edit_lyk_path(@lyk) %> |
+      <% end %>
+      <%= link_to 'Back', lyks_path %>
+		</div>
+	</div>
+</div>
+
+

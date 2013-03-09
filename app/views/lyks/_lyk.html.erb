@@ -1,0 +1,8 @@
+<tr>
+    <td><%= lyk.description %></td>
+    <% if current_user == lyk.user %>
+    <td><%= link_to 'Show', lyk %></td>
+    <% end %>
+    <td><%= link_to 'Edit', edit_lyk_path(lyk) %></td>
+    <td><%= link_to 'Destroy', lyk, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>
