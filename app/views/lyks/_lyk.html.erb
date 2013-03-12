@@ -1,4 +1,5 @@
 <tr>
+	  <td><%= image_tag lyk.image(:medium) %></td>
     <td><%= lyk.description %></td>
     <% if current_user == lyk.user %>
     <td><%= link_to 'Show', lyk %></td>

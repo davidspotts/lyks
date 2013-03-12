@@ -8,9 +8,7 @@ gem 'simple_form'
 gem 'instagram'
 gem 'sinatra'
 gem 'twitter'
-gem 'omniauth-twitter'
-gem 'hashie'
-gem 'multi_json'
+gem "paperclip", "~> 3.0"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
